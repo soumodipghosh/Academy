@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
     ]
   return (
     <div className='bg-[d6d6d6]'>
-      <div className=' py-24'>
+      <div className=' py-20'>
         {/* header section */}
         <div className='space-y-4 p-6 text-center max-w-[500px] mx-auto mb-5'>
             <h1 className='font-semibold text-orange-800'>WHY CHOOSE US</h1>
