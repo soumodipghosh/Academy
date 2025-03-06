@@ -19,10 +19,10 @@ const Hero = () => {
                 className='font-semibold'>We will help you to find a perfect tutor for 1-on-1 lessons. It is completely free and private.</motion.p>
               <motion.div variants={SlideRight(1.1)} initial="hidden" animate="visible"
               className='flex gap-8 justify-center md:justify-start !mt-8 items-center'>
-                <button className='bg-amber-700 font-semibold px-6 py-3 rounded-full hover:scale-110
-                hover:shadow-xl duration-300'>Get Started</button>
+                <button className='bg-amber-700 font-semibold lg:px-6 lg:py-3 md:px-1 md:py-1 px-2 py-2 rounded-full hover:scale-110
+                hover:shadow-xl duration-300 cursor-pointer'>Get Started</button>
                 <button className='flex justify-end items-center gap-2 font-semibold'> <span className='w-10 h-10 bg-blue-800/15 rounded-full flex justify-center
-                items-center'><FaPlay className='text-blue-600'/></span> See More</button>
+                items-center coursor-pointer'><FaPlay className='text-blue-600 coursor-pointer'/></span> See More</button>
               </motion.div>
             </div>
         </div>
