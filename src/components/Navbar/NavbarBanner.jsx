@@ -11,7 +11,7 @@ const NavbarBanner = () => {
         animate={{opacity:1}}
         transition={{duration:0.5, delay:0.8}}>
             Are you a university or school student for an online tutoring partnership ? <a href="#" className='
-            text-blue-600 font-semibold underline'>Talk to us</a>
+            text-blue-700 font-semibold underline'>Talk to us</a>
             <div className='absolute top-1/2 right-10 cursor-pointer -translate-y-1/2' onClick={()=>SetIsOpen(false)}>
                 X
             </div>

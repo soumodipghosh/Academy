@@ -37,8 +37,8 @@ const Navbar = () => {
             </div>
             {/* cta button sec */}
             <div className='hidden lg:block space-x-2'>
-                <button className='text-white bg-blue-700 font-semibold rounded-full px-6 py-2'>Sign in</button>
-                <button className='text-white bg-blue-700 font-semibold rounded-full px-6 py-2'>Register</button>
+                <button className='text-white bg-blue-700 font-semibold rounded-full px-6 py-2 cursor-pointer'>Sign in</button>
+                <button className='text-white bg-blue-700 font-semibold rounded-full px-6 py-2 cursor-pointer'>Register</button>
             </div>
             {/* mob hamburger sec */}
             <div className='lg:hidden' onClick={()=>SetIsOpen(!isOpen)}>
