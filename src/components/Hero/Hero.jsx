@@ -17,7 +17,7 @@ const Hero = () => {
                 className='text-3xl font-semibold md:text-4xl lg:text-6xl leading-tight text-blue-800'>Find Your Perfect Tutor</motion.h1>
                 <motion.p variants={SlideRight(0.9)} initial="hidden" animate="visible"
                 className='font-semibold text-green-900'>We will help you to find a perfect tutor for 1-on-1 lessons. It is completely free and private.</motion.p>
-              <motion.p variants={SlideRight(0.9)} initial="hidden" animate="visible" className='flex gap-3 font-medium pl-1 lg:pl-0 md:pl-0'>
+              <motion.p variants={SlideRight(0.9)} initial="hidden" animate="visible" className='flex gap-3 font-medium justify-center'>
                 <button className='bg-amber-600 px-3 py-2 md:px-3 md:py-2 lg:px-3 lg:py-2 rounded-4xl cursor-pointer'>Get Started</button>
               </motion.p> 
             </div>
