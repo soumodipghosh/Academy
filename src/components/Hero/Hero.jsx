@@ -18,11 +18,7 @@ const Hero = () => {
                 <motion.p variants={SlideRight(0.9)} initial="hidden" animate="visible"
                 className='font-semibold text-green-900'>We will help you to find a perfect tutor for 1-on-1 lessons. It is completely free and private.</motion.p>
               <motion.p variants={SlideRight(0.9)} initial="hidden" animate="visible" className='flex gap-3 font-medium pl-1 lg:pl-0 md:pl-0'>
-                {/* <button className='bg-amber-700 font-semibold lg:px-6 lg:py-3 md:px-5 md:py-1 px-2 py-2 rounded-full duration-300 cursor-pointer'>Get Started</button>
-                <button className='flex justify-end items-center gap-2 font-semibold'> <span className='w-10 h-10 bg-blue-800/15 rounded-full flex justify-center
-                items-center coursor-pointer'><FaPlay className='text-blue-600 coursor-pointer'/></span> See More</button> */}
                 <button className='bg-amber-600 px-3 py-2 md:px-3 md:py-2 lg:px-3 lg:py-2 rounded-4xl cursor-pointer'>Get Started</button>
-                <button className='bg-amber-600 px-3 py-2 md:px-3 md:py-2 lg:px-3 lg:py-2 rounded-4xl cursor-pointer'>See More</button>
               </motion.p> 
             </div>
         </div>
